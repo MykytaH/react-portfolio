@@ -1,1 +1,1 @@
-This site was built using [GitHub Pages](https://mykytah.github.io/react-portfolio/).
+Direct link: [Portfolio](https://mykytah.github.io/react-portfolio/).
