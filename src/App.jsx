@@ -1,31 +1,14 @@
-import "./App.css";
 import Header from "./components/Header";
 import Summary from "./components/Summary";
+import Education from "./components/Education";
 
 function App() {
   return (
-    <>
+    <main className="bg-neutral-800 text-slate-100">
       <Header />
       <Summary />
+      <Education />
 
-      <h2 id="education">Education</h2>
-      <ul>
-        <li>High school: Severodonetsk liceum, Faculty of math and physics</li>
-        <li>
-          1st Bachelor deegre: Ukrainian national university of Kharkiv, Faculty
-          of cosmical teht, spetiality of system analisys
-        </li>
-        <li>
-          2nd Bachelor deegre: University of Luhansk by the name of Vladimir
-          Dahl, Faculty of Applied Mathematics and Programming
-        </li>
-        <li>Python course by Beetroot Academy</li>
-        <li>
-          <a href="https://udemy.com/course/the-complete-web-development-bootcamp">
-            WEB development course by Udemy Academy
-          </a>
-        </li>
-      </ul>
       <h2 id="projects">Links</h2>
       <ul>
         <li>
@@ -52,7 +35,7 @@ function App() {
       <footer>
         <p>© 2023 MykytaH. All rights reserved.</p>
       </footer>
-    </>
+    </main>
   );
 }
 
