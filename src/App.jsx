@@ -1,7 +1,9 @@
 import Header from "./components/Header";
 import Summary from "./components/Summary";
 import Education from "./components/Education";
+
 import { COURCES, EDUCATION } from "./data/data";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Education title="Education" type={EDUCATION} />
         <Education title="Courses" type={COURCES} />
       </div>
+      <Skills />
 
       <h2 id="projects">Links</h2>
       <ul>
@@ -30,13 +33,6 @@ function App() {
         <li>
           <a href="https://mykytah.github.io/examples/grid_c/">Grid Example</a>
         </li>
-      </ul>
-
-      <h2 id="skills">Skills</h2>
-      <ul>
-        <li>Customer service: ⭐️⭐️⭐️⭐️⭐️</li>
-        <li>Microsoft Office Suite: ⭐️⭐️⭐️</li>
-        <li>Organizational skills: ⭐️⭐️⭐️⭐️</li>
       </ul>
 
       <footer>
