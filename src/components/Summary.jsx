@@ -32,7 +32,7 @@ export default function Summary() {
         </div>
         <div class="absolute inset-x-0 bottom-6 flex justify-center">
           <a
-            class=" animate-bounce rounded-full bg-neutral-900 p-1 ring-orange-500 ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
+            class="animate-bounce hover:animate-bounceSlow  rounded-full bg-neutral-800 p-1 ring-orange-500 ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
             href="#education"
           >
             <svg
