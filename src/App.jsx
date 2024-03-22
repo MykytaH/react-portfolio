@@ -1,13 +1,20 @@
 import Header from "./components/Header";
 import Summary from "./components/Summary";
 import Education from "./components/Education";
+import { COURCES, EDUCATION } from "./data/data";
 
 function App() {
   return (
     <main className="bg-neutral-800 text-slate-100">
       <Header />
       <Summary />
-      <Education />
+      <div
+        className="h-screen pt-20 grid grid-cols-1 gap-y-4 py-8 first:pt-0 last:pb-0  md:grid-cols-4"
+        id="education"
+      >
+        <Education title="Education" type={EDUCATION} />
+        <Education title="Courses" type={COURCES} />
+      </div>
 
       <h2 id="projects">Links</h2>
       <ul>
