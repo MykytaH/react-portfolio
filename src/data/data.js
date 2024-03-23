@@ -1,3 +1,8 @@
+import hotelsImg from "../assets/hotels.png";
+import ecvlidImg from "../assets/evclid.png";
+import gridImg from "../assets/grid.png";
+import radioImg from "../assets/radio.png";
+
 export const EDUCATION = [
   {
     title: "Системный анализ и управление: магистратура",
@@ -30,5 +35,51 @@ export const COURCES = [
     titleLink: "React - The Complete Guide 2024 (incl. React Router & Redux)",
     adress: "https://www.udemy.com/course/react-the-complete-guide-incl-redux",
     place: "Udemy Academy",
+  },
+];
+
+export const SKILLS = [
+  {
+    title: "HTML, CSS, JS",
+    skills: ["HTML5", "CSS3", "CSS framewoks: Bootstrap, Tailwind", "JS(ES6+)"],
+  },
+  {
+    title: "React",
+    skills: ["React 18", "Redux", "Router", "Next.js"],
+  },
+  {
+    title: "Other",
+    skills: ["REST API", "SQL", "Git"],
+  },
+  {
+    title: "Languages",
+    skills: ["English - C1", "Russian - native", "Ukrainian - native"],
+  },
+];
+
+export const PROJECTS = [
+  {
+    title: "Hotels",
+    description: "Site with hotels",
+    imgLink: hotelsImg,
+    link: "https://mykytah.github.io/examples/hotels/",
+  },
+  {
+    title: "Evclid",
+    description: "Site with evclid",
+    imgLink: ecvlidImg,
+    link: "https://mykytah.github.io/examples/evclid/",
+  },
+  {
+    title: "Radio",
+    description: "Site with radio",
+    imgLink: radioImg,
+    link: "https://mykytah.github.io/examples/radio/",
+  },
+  {
+    title: "Grid",
+    description: "Site with grid",
+    imgLink: gridImg,
+    link: "https://mykytah.github.io/examples/grid_c/",
   },
 ];
