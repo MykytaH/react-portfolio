@@ -2,6 +2,7 @@ import hotelsImg from "../assets/hotels.png";
 import ecvlidImg from "../assets/evclid.png";
 import gridImg from "../assets/grid.png";
 import radioImg from "../assets/radio.png";
+import foodImg from "../assets/food.png";
 
 export const EDUCATION = [
   {
@@ -91,10 +92,11 @@ export const PROJECTS = [
     title: "react",
     projects: [
       {
-        title: "Hotels",
-        description: "Site with hotels",
-        imgLink: hotelsImg,
-        link: "https://mykytah.github.io/examples/hotels/",
+        title: "Food Order",
+        description:
+          "Very simple app for ordering food, with usage of Context API",
+        imgLink: foodImg,
+        link: "https://mykytah.github.io/food-order/",
       },
       {
         title: "Evclid",
