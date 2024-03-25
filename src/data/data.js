@@ -59,27 +59,61 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
-    title: "Hotels",
-    description: "Site with hotels",
-    imgLink: hotelsImg,
-    link: "https://mykytah.github.io/examples/hotels/",
+    title: "html & css",
+    projects: [
+      {
+        title: "Evclid",
+        description: "Site with evclid",
+        imgLink: ecvlidImg,
+        link: "https://mykytah.github.io/examples/evclid/",
+      },
+      {
+        title: "Hotels",
+        description: "Site with hotels",
+        imgLink: hotelsImg,
+        link: "https://mykytah.github.io/examples/hotels/",
+      },
+      {
+        title: "Radio",
+        description: "Site with radio",
+        imgLink: radioImg,
+        link: "https://mykytah.github.io/examples/radio/",
+      },
+      {
+        title: "Grid",
+        description: "Site with grid",
+        imgLink: gridImg,
+        link: "https://mykytah.github.io/examples/grid_c/",
+      },
+    ],
   },
   {
-    title: "Evclid",
-    description: "Site with evclid",
-    imgLink: ecvlidImg,
-    link: "https://mykytah.github.io/examples/evclid/",
-  },
-  {
-    title: "Radio",
-    description: "Site with radio",
-    imgLink: radioImg,
-    link: "https://mykytah.github.io/examples/radio/",
-  },
-  {
-    title: "Grid",
-    description: "Site with grid",
-    imgLink: gridImg,
-    link: "https://mykytah.github.io/examples/grid_c/",
+    title: "react",
+    projects: [
+      {
+        title: "Hotels",
+        description: "Site with hotels",
+        imgLink: hotelsImg,
+        link: "https://mykytah.github.io/examples/hotels/",
+      },
+      {
+        title: "Evclid",
+        description: "Site with evclid",
+        imgLink: ecvlidImg,
+        link: "https://mykytah.github.io/examples/evclid/",
+      },
+      {
+        title: "Radio",
+        description: "Site with radio",
+        imgLink: radioImg,
+        link: "https://mykytah.github.io/examples/radio/",
+      },
+      {
+        title: "Grid",
+        description: "Site with grid",
+        imgLink: gridImg,
+        link: "https://mykytah.github.io/examples/grid_c/",
+      },
+    ],
   },
 ];

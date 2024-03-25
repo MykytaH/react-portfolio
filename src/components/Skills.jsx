@@ -12,7 +12,7 @@ export default function Skills() {
         </div>
       </div>
       <div className="border-b-2 border-neutral-700 pb-4 col-span-1 flex flex-col md:col-span-3">
-        <div className="  grid grid-cols-1 gap-6 md:grid-cols-2 w-4/5">
+        <div className="  grid grid-cols-1 gap-6 md:grid-cols-7">
           {SKILLS.map((item) => (
             <SkillsAll key={item.title} title={item.title}>
               <SkillsItems skills={item.skills} />
