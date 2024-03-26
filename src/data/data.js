@@ -3,6 +3,7 @@ import ecvlidImg from "../assets/evclid.png";
 import gridImg from "../assets/grid.png";
 import radioImg from "../assets/radio.png";
 import foodImg from "../assets/food.png";
+import reduxImg from "../assets/redux.png";
 
 export const EDUCATION = [
   {
@@ -60,8 +61,33 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
+    title: "react",
+    projects: [
+      {
+        title: "Redux Book Order",
+        description:
+          "Very simple app, build with Redux, with database on Google's Firebase",
+        imgLink: reduxImg,
+        link: "https://mykytah.github.io/redux/",
+      },
+      {
+        title: "Food Order",
+        description:
+          "Very simple app for ordering food, with usage of Context API",
+        imgLink: foodImg,
+        link: "https://mykytah.github.io/food-order/",
+      },
+    ],
+  },
+  {
     title: "html & css",
     projects: [
+      {
+        title: "Radio",
+        description: "Site with radio",
+        imgLink: radioImg,
+        link: "https://mykytah.github.io/examples/radio/",
+      },
       {
         title: "Evclid",
         description: "Site with evclid",
@@ -74,42 +100,7 @@ export const PROJECTS = [
         imgLink: hotelsImg,
         link: "https://mykytah.github.io/examples/hotels/",
       },
-      {
-        title: "Radio",
-        description: "Site with radio",
-        imgLink: radioImg,
-        link: "https://mykytah.github.io/examples/radio/",
-      },
-      {
-        title: "Grid",
-        description: "Site with grid",
-        imgLink: gridImg,
-        link: "https://mykytah.github.io/examples/grid_c/",
-      },
-    ],
-  },
-  {
-    title: "react",
-    projects: [
-      {
-        title: "Food Order",
-        description:
-          "Very simple app for ordering food, with usage of Context API",
-        imgLink: foodImg,
-        link: "https://mykytah.github.io/food-order/",
-      },
-      {
-        title: "Evclid",
-        description: "Site with evclid",
-        imgLink: ecvlidImg,
-        link: "https://mykytah.github.io/examples/evclid/",
-      },
-      {
-        title: "Radio",
-        description: "Site with radio",
-        imgLink: radioImg,
-        link: "https://mykytah.github.io/examples/radio/",
-      },
+
       {
         title: "Grid",
         description: "Site with grid",
