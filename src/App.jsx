@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import Summary from "./components/Summary";
 import Education from "./components/Education";
 
@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <main className="bg-neutral-800 text-slate-100">
-      <Header />
+      <Navbar />
       <Summary />
       <Layout id={"education"}>
         <Education title="Education" type={EDUCATION} />

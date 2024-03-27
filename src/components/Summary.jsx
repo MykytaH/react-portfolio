@@ -1,5 +1,7 @@
 import me from "../assets/me.jpg";
 
+import { FaArrowDown as Arrow } from "react-icons/fa";
+
 export default function Summary() {
   return (
     <>
@@ -8,7 +10,7 @@ export default function Summary() {
         className="h-screen flex flex-col items-center justify-center gap-y-10 text-center px-4"
       >
         <img
-          alt="I'm Tim Baker.-image"
+          alt="night city"
           fetchpriority="high"
           width="1920"
           height="1282"
@@ -35,22 +37,7 @@ export default function Summary() {
             className="animate-bounce hover:animate-bounceSlow rounded-full bg-neutral-800 p-1 ring-orange-500 ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
             href="#education"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-              data-slot="icon"
-              className="h-5 w-5 bg-transparent sm:h-6 sm:w-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5"
-              ></path>
-            </svg>
+            <Arrow className="h-5 w-5 bg-transparent sm:h-6 sm:w-6 text-neutral-400" />
           </a>
         </div>
       </div>
