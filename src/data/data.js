@@ -4,6 +4,7 @@ import gridImg from "../assets/grid.png";
 import radioImg from "../assets/radio.png";
 import foodImg from "../assets/food.png";
 import reduxImg from "../assets/redux.png";
+import eventsImg from "../assets/events.png";
 
 export const EDUCATION = [
   {
@@ -64,18 +65,25 @@ export const PROJECTS = [
     title: "react",
     projects: [
       {
-        title: "Redux Book Order",
-        description:
-          "Very simple app, build with Redux, with database on Google's Firebase",
-        imgLink: reduxImg,
-        link: "https://mykytah.github.io/redux/",
-      },
-      {
         title: "Food Order",
         description:
-          "Very simple app for ordering food, with usage of Context API",
+          "Very simple app for ordering food, with usage of Context API.  GitHub Pages.",
         imgLink: foodImg,
         link: "https://mykytah.github.io/food-order/",
+      },
+      {
+        title: "Events Notebook",
+        description:
+          "Very simple app for creating and editing notes about events, created with Router, with Authentication on backend. Just code on gitHub",
+        imgLink: eventsImg,
+        link: "https://github.com/MykytaH/events",
+      },
+      {
+        title: "Redux Book Order",
+        description:
+          "Very simple app, created with Redux, with database in Google's Firebase. GitHub Pages.",
+        imgLink: reduxImg,
+        link: "https://mykytah.github.io/redux/",
       },
     ],
   },
