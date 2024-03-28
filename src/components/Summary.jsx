@@ -35,7 +35,7 @@ export default function Summary() {
             и закончил курсы по HTML / CSS / JS / React и с нетерпением ищу
             возможность применить знания на практике!
           </p>
-          <div className="pb-10">
+          <div>
             <a
               className="px-6 py-2 border-2 rounded-full border-orange-500 flex items-center gap-2 hover:bg-neutral-600/50 duration-300"
               href={resume}
