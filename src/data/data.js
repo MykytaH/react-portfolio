@@ -52,7 +52,7 @@ export const SKILLS = [
   },
   {
     title: "Other",
-    skills: ["REST API", "SQL", "Git"],
+    skills: ["REST API", "SQL", "Git", "Pixel Perfect"],
   },
   {
     title: "Languages",
