@@ -7,7 +7,7 @@ export default function Skills() {
     <>
       <div className="col-span-1 flex justify-center md:justify-end md:pr-16">
         <div className="relative h-max">
-          <h2 className="text-xl font-bold uppercase ">Skills</h2>
+          <h2 className="text-xl font-bold uppercase ">Скилы</h2>
           <span className="absolute inset-x-0 -bottom-1 border-b-2 border-orange-400"></span>
         </div>
       </div>

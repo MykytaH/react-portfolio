@@ -51,12 +51,12 @@ export const SKILLS = [
     skills: ["React 18", "Redux", "Router", "Next.js"],
   },
   {
-    title: "Other",
+    title: "Другое",
     skills: ["REST API", "SQL", "Git", "Pixel Perfect"],
   },
   {
-    title: "Languages",
-    skills: ["English - C1", "Russian - native", "Ukrainian - native"],
+    title: "Языки",
+    skills: ["English - C1", "Русский - native", "Украинский - native"],
   },
 ];
 

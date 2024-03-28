@@ -1,6 +1,8 @@
-import me from "../assets/me.jpg";
+import { Link as ScrollLink } from "react-scroll";
+import me from "../assets/me.png";
+import resume from "../assets/Resume.pdf";
 
-import { FaArrowDown as Arrow } from "react-icons/fa";
+import { FaArrowDown as Arrow, FaDownload } from "react-icons/fa";
 
 export default function Summary() {
   return (
@@ -19,26 +21,38 @@ export default function Summary() {
           className="absolute z-0 h-full w-full object-cover"
           src="https://images.wallpaperscraft.ru/image/single/nochnoj_gorod_zdaniia_ogni_178307_1280x1024.jpg"
         />
-        <div className="flex flex-col items-center gap-y-10 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-sm">
+        <div className="flex flex-col items-center rounded-xl bg-gray-800/60 p-6 text-center shadow-lg backdrop-blur-sm">
           <img
             src={me}
             alt="my real photo"
-            className="rounded-full h-40 z-10"
+            className="rounded-3xl h-50 z-10 pb-5"
           />
-          <h1 className="text-3xl font-bold z-10">I'm Nikita Gavrilenko</h1>
-          <p className="max-w-4xl z-10">
-            I'm Mykyta, dependable, imaginative and hardworking individual. I am
-            beginning web developer, ive been learning a lot and hard and
-            motivatd to begin my career!
+          <h1 className="text-3xl font-bold z-10 pb-10">
+            Здраствуйте, я Никита Гавриленко!
+          </h1>
+          <p className="max-w-4xl z-10 pb-10 text-lg">
+            Junior React веб разработчик. Изучал в университете, самостоятельно
+            и закончил курсы по HTML / CSS / JS / React и с нетерпением ищу
+            возможность применить знания на практике!
           </p>
+          <div className="pb-10">
+            <a
+              className="px-6 py-2 border-2 rounded-full border-orange-500 flex items-center gap-2 hover:bg-neutral-600/50 duration-300"
+              href={resume}
+              type="button"
+            >
+              <p>Резюме</p>
+              <FaDownload />
+            </a>
+          </div>
         </div>
         <div className="absolute inset-x-0 bottom-6 flex justify-center">
-          <a
-            className="animate-bounce hover:animate-bounceSlow rounded-full bg-neutral-800 p-1 ring-orange-500 ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
-            href="#education"
+          <ScrollLink
+            className="animate-bounce hover:animate-bounceSlow hover:cursor-pointer rounded-full bg-neutral-800 p-1 ring-orange-500 ring-offset-2 ring-offset-gray-700/80  hover:ring-2 hover:outline-none  sm:p-2"
+            to="education"
           >
             <Arrow className="h-5 w-5 bg-transparent sm:h-6 sm:w-6 text-neutral-400" />
-          </a>
+          </ScrollLink>
         </div>
       </div>
     </>

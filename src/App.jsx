@@ -14,8 +14,8 @@ function App() {
       <Navbar />
       <Summary />
       <Layout id={"education"}>
-        <Education title="Education" type={EDUCATION} />
-        <Education title="Courses" type={COURCES} />{" "}
+        <Education title="Образование" type={EDUCATION} />
+        <Education title="Курсы" type={COURCES} />{" "}
       </Layout>
       <Layout id={"skills"}>
         <Skills />

@@ -23,8 +23,8 @@ export default function Navbar() {
 
   const cssUL =
     "gap-8 flex z-60" +
-    " max-sm:fixed max-sm:-left-full max-sm:flex-col max-sm:justify-center " +
-    " max-sm:bg-neutral-900 max-sm:w-4/5 max-sm:h-screen max-sm:top-14 max-sm:items-center transition-all duration-700 " +
+    " max-sm:fixed max-sm:-left-full max-sm:flex-col max-sm:justify-center max-sm:p-12 " +
+    " max-sm:bg-neutral-900 max-sm:w-4/5 max-sm:h-screen max-sm:top-14  transition-all duration-700 " +
     " max-sm:text-3xl max-sm:gap-20 max-sm:rounded-tr-2xl ";
 
   return (
@@ -39,7 +39,7 @@ export default function Navbar() {
           duration={0}
           onClick={() => setClicked(false)}
         >
-          <FaReact className="h-7 w-7" />
+          <FaReact className="h-7 w-7 " />
         </ScrollLink>
 
         <ul className={cssUL + slideMenu}>
@@ -53,7 +53,7 @@ export default function Navbar() {
               duration={0}
               onClick={() => setClicked(false)}
             >
-              Summary
+              Общее
             </ScrollLink>
           </li>
 
@@ -67,7 +67,7 @@ export default function Navbar() {
               duration={0}
               onClick={() => setClicked(false)}
             >
-              Education
+              Образование
             </ScrollLink>
           </li>
 
@@ -81,7 +81,7 @@ export default function Navbar() {
               duration={0}
               onClick={() => setClicked(false)}
             >
-              Skills
+              Скилы
             </ScrollLink>
           </li>
 
@@ -95,7 +95,7 @@ export default function Navbar() {
               duration={0}
               onClick={() => setClicked(false)}
             >
-              Projects
+              Проекты
             </ScrollLink>
           </li>
         </ul>
