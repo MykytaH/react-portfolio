@@ -1,6 +1,6 @@
 import { Link as ScrollLink } from "react-scroll";
 import me from "../assets/me.png";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/Resume-Gavrilenko.pdf";
 
 import { FaArrowDown as Arrow, FaDownload } from "react-icons/fa";
 
@@ -28,7 +28,7 @@ export default function Summary() {
             className="rounded-3xl h-50 z-10 pb-5"
           />
           <h1 className="text-3xl font-bold z-10 pb-10">
-            Здраствуйте, я Никита Гавриленко!
+            Я Никита Гавриленко.
           </h1>
           <p className="max-w-4xl z-10 pb-10 text-lg">
             Junior React веб разработчик. Изучал в университете, самостоятельно
