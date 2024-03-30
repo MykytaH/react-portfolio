@@ -89,7 +89,7 @@ export const PROJECTS = [
       {
         title: "QPICK",
         description:
-          "Very simple audio accessories store, with usage of Router and Context API.  GitHub Pages.",
+          "Very simple audio accessories store, with usage of Router and Context API. Created as a test for Neoflex internship.  GitHub Pages.",
         imgLink: qpickImg,
         link: "https://mykytah.github.io/testNeoflex",
       },
