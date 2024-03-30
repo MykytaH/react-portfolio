@@ -5,6 +5,7 @@ import radioImg from "../assets/radio.png";
 import foodImg from "../assets/food.png";
 import reduxImg from "../assets/redux.png";
 import eventsImg from "../assets/events.png";
+import qpickImg from "../assets/qpick.png";
 
 export const EDUCATION = [
   {
@@ -84,6 +85,13 @@ export const PROJECTS = [
           "Very simple app, created with Redux, with database in Google's Firebase. GitHub Pages.",
         imgLink: reduxImg,
         link: "https://mykytah.github.io/redux/",
+      },
+      {
+        title: "QPICK",
+        description:
+          "Very simple audio accessories store, with usage of Router and Context API.  GitHub Pages.",
+        imgLink: qpickImg,
+        link: "https://mykytah.github.io/testNeoflex",
       },
     ],
   },
