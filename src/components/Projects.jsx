@@ -15,13 +15,16 @@ export default function Projects() {
           </div>
         </div>
         {PROJECTS.map((collection) => (
-          <div className="h-fit col-span-1 sm:col-span-4 grid grid-cols-1 gap-y-6">
+          <div
+            className="h-fit col-span-1 sm:col-span-4 grid grid-cols-1 gap-y-6"
+            key={collection.title}
+          >
             <p className="uppercase text-center  font-bold text-lg text-neutral-300">
               {collection.title}
             </p>
 
             {collection.projects.map((project) => (
-              <div className="px-3">
+              <div className="px-3" key={project.title}>
                 <div className="relative  overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl">
                   <img
                     alt="Project title 1"

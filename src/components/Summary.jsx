@@ -2,7 +2,7 @@ import { Link as ScrollLink } from "react-scroll";
 import me from "../assets/me.png";
 import resume from "../assets/Resume-Gavrilenko.pdf";
 
-import { FaArrowDown as Arrow, FaDownload } from "react-icons/fa";
+import { FaArrowDown as Arrow, FaRegEye } from "react-icons/fa";
 
 export default function Summary() {
   return (
@@ -42,7 +42,7 @@ export default function Summary() {
               type="button"
             >
               <p>Резюме</p>
-              <FaDownload />
+              <FaRegEye className="mt-px" />
             </a>
           </div>
         </div>
