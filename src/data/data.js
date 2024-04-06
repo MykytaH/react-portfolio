@@ -3,6 +3,7 @@ import ecvlidImg from "../assets/evclid.png";
 import gridImg from "../assets/grid.png";
 import radioImg from "../assets/radio.png";
 import foodImg from "../assets/food.png";
+import nextMealsImg from "../assets/nextMeals.png";
 import reduxImg from "../assets/redux.png";
 import eventsImg from "../assets/events.png";
 import events2Img from "../assets/events-II.png";
@@ -72,6 +73,16 @@ export const PROJECTS = [
           "A single page app for ordering food, with usage of Context API.  GitHub Pages.",
         imgLink: foodImg,
         link: "https://mykytah.github.io/food-order/",
+      },
+      {
+        title: "NextLevel Meals",
+        description: `App for sharing your favorite meals with the world.
+          Build on Next.js with usage of internal SQLite3 database for storing meals.
+          Deployment preview on Vercel. Note, that images added at request won't be available.
+          Only images that are in the data at the moment of BUILD are served by NEXT.
+          As such, adding user meals are disabled.`,
+        imgLink: nextMealsImg,
+        link: "https://next-meals-five.vercel.app",
       },
       {
         title: "Events Notebook 2.0",
