@@ -68,11 +68,12 @@ export const PROJECTS = [
     title: "react",
     projects: [
       {
-        title: "Food Order",
+        title: "QPICK",
         description:
-          "A single page app for ordering food, with usage of Context API.  GitHub Pages.",
-        imgLink: foodImg,
-        link: "https://mykytah.github.io/food-order/",
+          "Audio accessories store,created with usage of Router and Context API. Created as a test for Neoflex internship. Deploy on GitHub Pages.",
+        imgLink: qpickImg,
+        link: "https://mykytah.github.io/testNeoflex",
+        ghLink: "https://github.com/MykytaH/testNeoflex",
       },
       {
         title: "NextLevel Meals",
@@ -80,9 +81,10 @@ export const PROJECTS = [
           Build on Next.js with usage of internal SQLite3 database for storing meals.
           Deployment preview on Vercel. Note, that images added at request won't be available.
           Only images that are in the data at the moment of BUILD are served by NEXT.
-          As such, adding user meals are disabled.`,
+          As such, adding user meals are disabled. Deploy on Vercel`,
         imgLink: nextMealsImg,
         link: "https://next-meals-five.vercel.app",
+        ghLink: "https://github.com/MykytaH/next-meals",
       },
       {
         title: "Events Notebook 2.0",
@@ -90,33 +92,45 @@ export const PROJECTS = [
           "A simple app for creating and editing notes about events, created with Router and React Query. Just code on gitHub",
         imgLink: events2Img,
         link: "https://github.com/MykytaH/events-II",
+        ghLink: "https://github.com/MykytaH/events-II",
       },
       {
-        title: "QPICK",
+        title: "Food Order",
         description:
-          "Audio accessories store,created with usage of Router and Context API. Created as a test for Neoflex internship.  GitHub Pages.",
-        imgLink: qpickImg,
-        link: "https://mykytah.github.io/testNeoflex",
+          "A single page app for ordering food, with usage of Context API. Deploy on GitHub Pages.",
+        imgLink: foodImg,
+        link: "https://mykytah.github.io/food-order/",
+        ghLink: "https://github.com/MykytaH/food-order",
       },
+
       {
         title: "Events Notebook",
         description:
           "An older version of app creating and editing notes about events, created with only Router, but with Authentication on backend. Just code on gitHub",
         imgLink: eventsImg,
         link: "https://github.com/MykytaH/events",
+        ghLink: "https://github.com/MykytaH/events",
       },
       {
         title: "Redux Book Order",
         description:
-          "Very simple app, created with Redux, with database in Google's Firebase. GitHub Pages.",
+          "Very simple app, created with Redux, with database in Google's Firebase. Deploy on GitHub Pages.",
         imgLink: reduxImg,
         link: "https://mykytah.github.io/redux/",
+        ghLink: "https://github.com/MykytaH/redux",
       },
     ],
   },
   {
     title: "html & css",
     projects: [
+      {
+        title: "Hotels",
+        description: "Site with hotels",
+        imgLink: hotelsImg,
+        link: "https://mykytah.github.io/examples/hotels/",
+        ghLink: "https://github.com/MykytaH/examples",
+      },
       {
         title: "Radio",
         description: "Site with radio",
@@ -128,12 +142,6 @@ export const PROJECTS = [
         description: "Site with evclid",
         imgLink: ecvlidImg,
         link: "https://mykytah.github.io/examples/evclid/",
-      },
-      {
-        title: "Hotels",
-        description: "Site with hotels",
-        imgLink: hotelsImg,
-        link: "https://mykytah.github.io/examples/hotels/",
       },
 
       {

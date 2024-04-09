@@ -48,7 +48,8 @@ export default function Summary() {
         </div>
         <div className="absolute inset-x-0 bottom-6 flex justify-center">
           <ScrollLink
-            className="animate-bounce hover:animate-bounceSlow hover:cursor-pointer rounded-full bg-neutral-800 p-1 ring-orange-500 ring-offset-2 ring-offset-gray-700/80  hover:ring-2 hover:outline-none  sm:p-2"
+            className={`animate-bounce hover:animate-bounceSlow hover:cursor-pointer rounded-full bg-neutral-800 p-1
+             ring-orange-500 ring-offset-2 ring-offset-gray-700/80  hover:ring-2 hover:outline-none  sm:p-2`}
             to="education"
           >
             <Arrow className="h-5 w-5 bg-transparent sm:h-6 sm:w-6 text-neutral-400" />
