@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="relative mt-20">
       <div className="absolute inset-x-0 -top-3 flex justify-center sm:-top-8">
         <Link
-          className="rounded-full border-neutral-800 border-4 text-neutral-400 bg-neutral-900 p-1 ring-neutral-900/50 ring-offset-2 ring-offset-neutral-900/50 hover:ring-2 hover:outline-none hover:cursor-pointer sm:p-2"
+          className="rounded-full border-neutral-800 border-4 text-neutral-400 bg-neutral-900 p-1 ring-neutral-900/50 ring-offset-2 ring-offset-orange-500 hover:ring-2 hover:outline-none hover:cursor-pointer sm:p-2"
           to="summary"
         >
           <FaArrowUp className="h-6 w-6 " />
