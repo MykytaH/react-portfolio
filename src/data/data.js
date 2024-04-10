@@ -51,11 +51,11 @@ export const SKILLS = [
   },
   {
     title: "React",
-    skills: ["React 18, Next.js", "Redux", "Router", "Query", ""],
+    skills: ["React 18, Next.js", "Redux", "Router", "Query"],
   },
   {
     title: "Другое",
-    skills: ["REST API", "SQL", "Git", "Pixel Perfect, Figma"],
+    skills: ["WebPack", "REST API", "SQL", "Git", "Pixel Perfect, Figma"],
   },
   {
     title: "Языки",

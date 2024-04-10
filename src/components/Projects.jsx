@@ -14,7 +14,7 @@ export default function Projects() {
             <span className="absolute inset-x-0 -bottom-1 border-b-2 border-orange-400"></span>
           </div>
         </div>
-        <div className="col-span-9 grid grid-cols-9 max-md:grid-cols-1">
+        <div className="col-span-9 grid grid-cols-9  max-md:grid-cols-1">
           {PROJECTS.map((collection) => (
             <div
               className="h-fit col-span-1 sm:col-span-4 grid grid-cols-1 gap-y-6"
