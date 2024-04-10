@@ -1,6 +1,6 @@
 import { Link as ScrollLink } from "react-scroll";
 import me from "../assets/me.png";
-import resume from "../assets/Resume-Gavrilenko.pdf";
+import resume from "../assets/Gavrilenko_Resume_frontend.pdf";
 
 import { FaArrowDown as Arrow, FaRegEye } from "react-icons/fa";
 
