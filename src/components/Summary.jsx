@@ -40,6 +40,7 @@ export default function Summary() {
               className="px-6 py-2 border-2 rounded-full border-orange-500 flex items-center gap-2 hover:bg-neutral-600/50 duration-300"
               href={resume}
               type="button"
+              target="_blank"
             >
               <p>Резюме</p>
               <FaRegEye className="mt-px" />

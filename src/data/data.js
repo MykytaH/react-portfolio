@@ -2,6 +2,7 @@ import hotelsImg from "../assets/hotels.png";
 import ecvlidImg from "../assets/evclid.png";
 import gridImg from "../assets/grid.png";
 import radioImg from "../assets/radio.png";
+import taxiImg from "../assets/taxi.png";
 import foodImg from "../assets/food.png";
 import nextMealsImg from "../assets/nextMeals.png";
 import reduxImg from "../assets/redux.png";
@@ -149,6 +150,14 @@ export const PROJECTS = [
         description: "Site with grid",
         imgLink: gridImg,
         link: "https://mykytah.github.io/examples/grid_c/",
+      },
+      {
+        title: "Taxi Buisness card",
+        description:
+          "Small taxi business card project for a 'СВоё Такси' company",
+        imgLink: taxiImg,
+        link: "https://mykytah.github.io/taxi/",
+        ghLink: "https://github.com/MykytaH/taxi",
       },
     ],
   },
